@@ -18,7 +18,7 @@ main::after {
 main .personagem {
     display: none;
     height: 100vh;
-}
+    }
 
 main .personagem.selecionado {
     display: block;
@@ -45,7 +45,7 @@ main .personagem .imagem {
 
 .conteudo .nome-personagem {
     color: #ffffff;
-    font-size: 60px;
+    font-size: 48px;
     font-family: "Secular One";
     font-weight: 400;
     margin-bottom: 20px;
@@ -53,9 +53,9 @@ main .personagem .imagem {
 
 .conteudo .descricao {
     color: #ffffff;
-    font-family: "rubik";
-    font-size: 27px;
-    line-height: 29px;
+    font-family: "Rubik";
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .botoes{
@@ -79,16 +79,15 @@ main .personagem .imagem {
     width: 90px;
     height: 90px;
     cursor: pointer;
-    transition: transforme 0.3s ease;
+    transition: transform 0.3s ease;
     border-radius: 50%;
-    
 }
 
 .botoes .botao img {
     border-radius: 50%;
 }
 .botoes .botao.selecionado {
-    transform: scale(1.3);
+    transform: scale(1.2);
     box-shadow: 0 0 10px #d9d9d9;
 }
 

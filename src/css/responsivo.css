@@ -4,7 +4,7 @@
         background: linear-gradient(0deg, #000 45%, rgba(0, 0, 0, 0.00) 70%) no-repeat;
         width: 100vw;
         }
-        
+
         main. .personagem .imagem{
             height: 85%;
             object-position: center;            
@@ -19,7 +19,7 @@
         }
 
         .conteudo .nome-personagem {
-            font-size: 24px;
+            font-size: 30px;
         }
         .conteudo .descricao{
             max-width: 500px;
